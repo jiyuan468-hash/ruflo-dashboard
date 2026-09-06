@@ -11,4 +11,4 @@ ENV MCP_HOST=0.0.0.0
 ENV MCP_PORT=3000
 ENV NODE_ENV=production
 
-CMD ["ruflo", "mcp", "start", "**-t", "http", "**-h", "0.0.0.0", "**-p", "3000"]
+CMD ["ruflo", "mcp", "start", "-t", "http", "-h", "0.0.0.0", "-p", "3000"]

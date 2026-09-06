@@ -10,3 +10,10 @@
    - Environment: Docker
    - Region: Choose closest to you
 6. Click Create Web Service
+
+## Deploy to Railway (Free trial)
+1. Go to https://railway.app
+2. Import from GitHub repo
+3. Railway will auto-detect Dockerfile
+4. Click Deploy
+
