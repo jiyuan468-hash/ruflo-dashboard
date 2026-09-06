@@ -1,12 +1,23 @@
 # Ruflo MCP Server Deployment
 
-## Deploy to Render (Free)
-1. Go to https://render.com
-2. Sign up / Log in
-3. Click New + → Web Service
-4. Connect GitHub repo: jiyuan468-hash/ruflo-dashboard
-5. Configure:
-   - Name: ruflo-mcp
-   - Environment: Docker
-   - Region: Singapore
-6. Click Create Web Service
+## ✅ 已部署
+
+**服务地址：** https://ruflo-mcp.onrender.com
+**状态：** Live（免费实例，会休眠）
+
+## 部署信息
+
+| 项目 | 详情 |
+|------|------|
+| 服务名 | ruflo-mcp |
+| 域名 | ruflo-mcp.onrender.com |
+| 区域 | Singapore（东南亚） |
+| 计费 | 免费（\/月） |
+| 实例 | 0.1 CPU，512MB RAM |
+
+## 注意
+
+- 免费实例会休眠，首次访问需等待 30~60 秒
+- 如需保持在线，可升级至 \/月 实例
+- 基础编排功能无需 API Key
+- LLM 路由需配置 ANTHROPIC_API_KEY 或 OPENAI_API_KEY
