@@ -21,3 +21,24 @@
 - 如需保持在线，可升级至 \/月 实例
 - 基础编排功能无需 API Key
 - LLM 路由需配置 ANTHROPIC_API_KEY 或 OPENAI_API_KEY
+
+## How Others Use Your Server
+
+Once deployed, others can connect to your MCP server:
+
+```json
+{
+  "mcpServers": {
+    "ruflo": {
+      "command": "http",
+      "url": "https://ruflo-mcp.onrender.com"
+    }
+  }
+}
+```
+
+## Deploy to Railway (Free trial)
+1. Go to https://railway.app
+2. Import from GitHub repo
+3. Railway will auto-detect Dockerfile
+4. Click Deploy
