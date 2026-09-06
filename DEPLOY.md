@@ -17,3 +17,12 @@
 3. Railway will auto-detect Dockerfile
 4. Click Deploy
 
+## Deploy to Railway (Free trial)
+
+## How Others Use Your Server
+
+Once deployed, others can connect to your MCP server:
+
+```json
+{"mcpServers": {"ruflo": {"command": "http", "url": "https://your-service.onrender.com"}}}
+```
