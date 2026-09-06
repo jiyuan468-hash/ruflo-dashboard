@@ -8,33 +8,5 @@
 5. Configure:
    - Name: ruflo-mcp
    - Environment: Docker
-   - Region: Choose closest to you
+   - Region: Singapore
 6. Click Create Web Service
-
-## Deploy to Railway (Free trial)
-1. Go to https://railway.app
-2. Import from GitHub repo
-3. Railway will auto-detect Dockerfile
-4. Click Deploy
-
-## Deploy to Railway (Free trial)
-
-## How Others Use Your Server
-
-Once deployed, others can connect to your MCP server:
-
-```json
-{"mcpServers": {"ruflo": {"command": "http", "url": "https://your-service.onrender.com"}}}
-```
-
-## Deploy to Railway (Free trial)
-1. Go to https://railway.app
-2. Import from GitHub repo
-3. Railway will auto-detect Dockerfile
-4. Click Deploy
-
-## How Others Use Your Server
-
-```json
-{"mcpServers": {"ruflo": {"command": "http", "url": "https://your-service.onrender.com"}}}
-```
