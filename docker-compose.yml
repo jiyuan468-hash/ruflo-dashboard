@@ -1,0 +1,13 @@
+version: "3"
+
+services:
+  ruflo-mcp:
+    build: .
+    restart: unless-stopped
+    ports:
+      - "3000:3000"
+    environment:
+      - MCP_TRANSPORT=http
+      - MCP_HOST=0.0.0.0
+      - MCP_PORT=3000
+      - NODE_ENV=production
